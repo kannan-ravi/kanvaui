@@ -15,6 +15,18 @@ export const metadata: Metadata = {
   applicationName: "Kanva UI",
   keywords: ["ui", "components", "Tailwind CSS", "Next.js", "shadcn", "motion"],
   creator: "Kannan Ravindran",
+  icons: [
+    {
+      url: "/favicon-light.svg",
+      type: "image/svg+xml",
+      media: "(prefers-color-scheme: light)",
+    },
+    {
+      url: "/favicon-dark.svg",
+      type: "image/svg+xml",
+      media: "(prefers-color-scheme: dark)",
+    },
+  ],
 };
 
 export default function RootLayout({
